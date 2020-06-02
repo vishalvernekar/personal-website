@@ -35,7 +35,7 @@ function draw(){
 
   fill(r,g,b);
   noStroke(0);
-  ellipse(mouseX, mouseY, viewportHeight*0.3*perlinsNoise, viewportHeight*0.3*perlinsNoise);
+  ellipse(mouseX, mouseY, viewportHeight*0.2*perlinsNoise, viewportHeight*0.2*perlinsNoise);
 }
 }
 else if (randomNumber === 2) {
