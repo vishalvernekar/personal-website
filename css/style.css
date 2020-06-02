@@ -1,0 +1,255 @@
+
+
+
+
+.nav-link, #artText, #subtitle {
+  font-size: 1.2rem;
+}
+
+#contact-details {
+  font-size: 1.2rem;
+
+}
+
+#subtitle {
+  opacity: 0.3;
+}
+
+#brand-name {
+  font-family: 'HelveticaNeue' sans-serif;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  align-items: stretch;
+  text-align: left;
+  color: white;
+  margin: auto auto;
+  width: 70%;
+  position: absolute;
+  left: 15vw;
+  top: 40vh;
+  text-shadow: -1px 1px black, 1px -1px black,-1px -1px black, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black;
+
+}
+
+.about-content {
+  padding: 20px 30px 20px 0;
+}
+
+.about-quote {
+  margin: 5vh auto;
+}
+
+.about-quote>h2 {
+  font-weight: bold;
+}
+
+#quotation {
+  color: gray;
+}
+
+.about-image>img {
+  height: 45vw;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.about-content>p {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.mobile-about-image {
+  display: none;
+}
+
+@media screen and (min-width: 1400px) {
+  .about-title {
+    font-size: 3vw;
+  }
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0 10%;
+  justify-content: space-between;
+}
+
+.quote {
+
+  font-size: 1rem;
+  margin-top: 0.2rem;
+  color: gray;
+  margin-bottom: 2.5rem;
+}
+
+.social-media {
+
+  font-size: 1.5rem;
+  opacity: 0.6;
+  margin-bottom: 2.5rem;
+
+}
+
+.social-icon {
+  text-align: right;
+  color: gray;
+  margin: auto 0px auto 10px;
+}
+
+@media screen and (max-width: 550px) {
+
+
+  .flex-container {
+    display: block;
+    text-align: center;
+  }
+
+  .socialmedia {
+    text-align: center;
+
+  }
+
+  .quote {
+    width: 100%
+  }
+
+  .about-image {
+    display: none;
+  }
+}
+
+.social-icon:hover {
+  color: orange;
+}
+
+.main-title{
+font-size: 2rem;
+align-items: stretch;
+text-align: left;
+color: white;
+margin: 15vh auto;
+width: 70%;
+}
+
+#art, #work {
+  background: transparent;
+}
+
+
+
+.navbar {
+  margin: 0% 10%;
+
+
+}
+
+.navbar-light  {
+  color: transparent;
+}
+
+.bg-light {
+  background-color: transparent!important;
+}
+
+
+.background-image {
+  height: 80vh;
+  width: 80vw;
+  margin: auto 10%;
+  display: flex;
+
+}
+
+.background-about {
+  width: 80vw;
+  margin: auto 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none;
+  font-size: 2rem;
+  padding: 6px 0px 0px 0px;
+  opacity: 1;
+}
+.navbar-toggler {
+  border: none;
+}
+
+a.artwork {
+  color: gray;
+}
+
+a.artwork:hover {
+  color: black;
+}
+
+a.artwork>img {
+  color: white;
+  display:none;
+}
+
+a.artwork:hover>img {
+  color: red;
+  display: inline;
+  width: 350px;
+  height:auto;
+  position: absolute;
+  margin: auto;
+  transform: rotate(5deg);
+  border-width: 15px;
+  border-style: solid;
+  border-color: white;
+  box-shadow: 1px -1px red,-1px 1px red, -1px -1px red, 1px 1px red, 2px 2px red, 3px 3px red, 4px 4px red, 5px 5px red,-2px -2px red,6px 6px red,7px 7px red,8px 8px red, 9px 9px red;
+
+}
+
+a.case {
+  color: gray;
+}
+
+a.case:hover {
+  color: black;
+}
+
+a.case>img {
+  color: white;
+  display:none;
+}
+
+a.case:hover>img {
+  color: red;
+  display: inline;
+  height: 50vh;
+  position: absolute;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+a.case>video {
+  display:none;
+}
+
+a.case:hover>video {
+  display: inline;
+  height: 50vh;
+  position: absolute;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(0, 0, 0, 0.1);
+
+}
