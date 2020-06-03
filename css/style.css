@@ -258,27 +258,73 @@ a.case:hover>video {
   position: absolute;
   top: 45%;
   left: 60%;
-  display: flex;
+  display: none;
   flex-direction: column;
   transform: translate(-50%, -50%);
-  border: 5px solid white;
-  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+
+
   border-radius: 3vh;
 }
 
-.box {
+@keyframes scroll {
+  0% {background-position: top;}
+  2.5% {background-position: top;}
+  100% {background-position: bottom;}
+}
+
+
+#dreamspring>.box {
   width: 50vw;
-  height: 30vw;
+  height: 28vw;
   border-radius: 3vh;
   background: url(DreamSpring_1.png);
   background-size: cover;
-  background-position: top;
-
-  transition: 12s;
+  /* background-position: top; */
+  border: 5px solid white;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  /* transition: 12s; */
+  /* background-position: bottom; */
+  animation-name: scroll;
+  animation-duration: 16s;
 }
 
-.box:hover {
+#andropique>.box {
+  width: 50vw;
+  height: 28vw;
+  border-radius: 3vh;
+  background: url(Andropique_1.png);
+  background-size: cover;
+  /* background-position: top; */
+  border: 5px solid white;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  /* transition: 12s; */
+  /* background-position: bottom; */
+  animation-name: scroll;
+  animation-duration: 16s;
+}
+
+#cgf>.box {
+  width: 50vw;
+  height: 28vw;
+  border-radius: 3vh;
+  background: url(CGF_1.png);
+  background-size: cover;
+  /* background-position: top; */
+  border: 5px solid white;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  /* transition: 12s; */
+  /* background-position: bottom; */
+  animation-name: scroll;
+  animation-duration: 16s;
+}
+
+
+/* .box:hover {
   background-position: bottom;
+} */
+
+a:hover>.case-box {
+  display: flex;
 }
 
 #client {
