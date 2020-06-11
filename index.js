@@ -64,7 +64,7 @@ else if (randomNumber === 2) {
     	ypos[ypos.length-1] = mouseY;
 
     	for (var i=0; i<xpos.length; i++) {
-    		fill(i*4, 0, i*1);
+    		fill(i*5, i*2, 0);
     		stroke(0);
         strokeWeight(2)
     		ellipseMode(CENTER);
