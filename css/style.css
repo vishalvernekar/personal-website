@@ -1,5 +1,101 @@
 
+.case-page {
+  margin: 3% 20% 3%;
 
+}
+
+.case-page>p {
+  margin: 0 0 30px 20%;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.case-page>ul {
+  margin: 0 0 30px 30%;
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.case-scroll-box {
+  width: auto;
+  height: 500px;
+}
+
+#case-benefis {
+  width: 60vw;
+  height: 33.6vw;
+  border-radius: 3vh;
+  background: url(Benefis/Benefis_1.png);
+  background-size: cover;
+  /* background-position: top; */
+  border: 5px solid black;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  /* transition: 12s; */
+  /* background-position: bottom; */
+  animation-name: flipbenefis;
+  animation-duration: 24s;
+  margin: 50px auto;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flipbenefis {
+  0% {background: url(Benefis/Benefis_1.png);background-size: cover;}
+  10% {background: url(Benefis/Benefis_1.png);background-size: cover;}
+  20% {background: url(Benefis/Benefis_2.png);background-size: cover;}
+  30% {background: url(Benefis/Benefis_3.png);background-size: cover;}
+  40% {background: url(Benefis/Benefis_4.png);background-size: cover;}
+  50% {background: url(Benefis/Benefis_5.png);background-size: cover;}
+  60% {background: url(Benefis/Benefis_6.png);background-size: cover;}
+  70% {background: url(Benefis/Benefis_7.png);background-size: cover;}
+  80% {background: url(Benefis/Benefis_8.png);background-size: cover;}
+  90% {background: url(Benefis/Benefis_8.png);background-size: cover;}
+  100% {background: url(Benefis/Benefis_8.png);background-size: cover;}
+}
+
+#nature-science {
+  width: 400px;
+  margin: 20px 20px 50px 35%;
+
+}
+
+.image {
+  width: 60vw;
+  margin: 10px auto;
+
+}
+
+
+.case-image {
+  width: 60vw;
+  margin: 50px auto;
+  border: 5px solid black;
+  box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 3vh;
+}
+
+h4 {
+  color: gray;
+  margin-bottom: 60px;
+}
+
+h5 {
+  color: gray;
+}
+
+hr {
+  width: 60vw;
+  height: 10px;
+}
+
+
+
+
+#case-title {
+  font-weight: bold;
+  color: black;
+  font-size: 3rem;
+  align-items: left;
+}
 
 
 .nav-link, #artText, #subtitle {
@@ -293,7 +389,7 @@ a.case:hover>video {
   background: url(zoop/Zoop_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -322,7 +418,7 @@ a.case:hover>video {
   background: url(Natrusolate/Natrusolate_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -351,7 +447,7 @@ a.case:hover>video {
   background: url(Benefis/Benefis_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -367,7 +463,7 @@ a.case:hover>video {
   background: url(DreamSpring_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -382,7 +478,7 @@ a.case:hover>video {
   background: url(Andropique_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -397,7 +493,7 @@ a.case:hover>video {
   background: url(CGF_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -412,7 +508,7 @@ a.case:hover>video {
   background: url(Makespace_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -427,7 +523,7 @@ a.case:hover>video {
   background: url(GNC_1.png);
   background-size: cover;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
@@ -440,7 +536,7 @@ a.case:hover>video {
   height: 28vw;
   border-radius: 3vh;
   /* background-position: top; */
-  border: 5px solid white;
+  border: 5px solid black;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */

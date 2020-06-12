@@ -95,7 +95,7 @@ else if (randomNumber === 3) {
        // A simple way to draw the wave with an ellipse at each location
        for (var i = 0; i <= 100; i++) {
        		var y = sin(x)*height/3;
-  			ellipse(i*(mouseX/8),y+(mouseY/2),viewportWidth*0.5,viewportWidth*0.5);
+  			ellipse(i*(mouseX/8),y+(mouseY/2),viewportHeight*0.75,viewportHeight*0.75);
   			x += 0.1;
   		}
   }
