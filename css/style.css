@@ -1,3 +1,9 @@
+#phone, #mail {
+  margin-top: 5px;
+}
+
+
+
 
 .case-page {
   margin: 3% 20% 3%;
@@ -5,7 +11,7 @@
 }
 
 .case-page>p {
-  margin: 0 0 20px 20%;
+  margin: 40px 0 40px 20%;
   font-size: 1.2rem;
   color: gray;
 }
@@ -103,7 +109,7 @@
 
 }
 
-@keyframes flipNat {
+@keyframes flipLinkedIn {
   0% {background: url(LinkedIn/Slide15.jpg);background-size: cover;}
   20% {background: url(LinkedIn/Slide15.jpg);background-size: cover;}
   40% {background: url(LinkedIn/Slide11.jpg);background-size: cover;}
@@ -124,7 +130,7 @@
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   /* transition: 12s; */
   /* background-position: bottom; */
-  animation-name: flipNat;
+  animation-name: flipLinkedIn;
   animation-duration: 10s;
   margin: 50px auto;
   animation-iteration-count: infinite;
@@ -171,7 +177,7 @@
 
 h4 {
   color: gray;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 h5 {
@@ -745,4 +751,17 @@ a:hover>.case-box {
   font-size: 1rem;
   font-weight: normal;
   justify-content: space-between;
+}
+
+.moreWork {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+.moreWork:hover {
+  color: black;
+}
+
+.case-moreWork {
+  margin: 10vh;
 }
