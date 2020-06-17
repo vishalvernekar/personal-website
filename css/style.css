@@ -7,7 +7,6 @@
 
 .case-page {
   margin: 3% 20% 3%;
-
 }
 
 .case-page>p {
@@ -304,27 +303,240 @@ hr {
   margin: auto 0px auto 10px;
 }
 
-@media screen and (max-width: 550px) {
+/* Mobile Media Queries */
 
+@media screen and (max-width: 768px) {
+
+  /* HomePage */
+  .navbar {
+    margin: 0%!important;
+  }
+
+  #brand-name {
+    font-size: 2rem;
+    margin-left: 5%;
+  }
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+  #sketch-div {
+    width: 100%;
+    background: linear-gradient(270deg, #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
+    background-size: 1200% 1200%;
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    -o-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+    margin: 0;
+  }
+
+  .background-image {
+    height: 75vh!important;
+  }
+
+  .about-title {
+    font-size: 2.5rem;
+    position: inherit;
+  }
+
+  .nav-link {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .navbar-light .navbar-toggler-icon {
+    font-size: 2.5rem!important;
+    padding-top: 10px!important;
+  }
+
+  #subtitle, #artText {
+    display: none;
+  }
+
+  #contact-details {
+    display: inherit!important;
+  }
 
   .flex-container {
     display: block;
     text-align: center;
+    margin-top: 20px;
   }
 
-  .socialmedia {
+  .social-media {
     text-align: center;
-
+    font-size: 2rem;
+    margin-top: 0;
   }
 
   .quote {
     width: 100%
   }
 
+  /* About Page */
+
   .about-image {
     display: none;
   }
+
+  .about-content {
+    padding: 20px 0;
+  }
+
+  .background-about {
+    width: 100%;
+    margin: auto 10%;
+  }
+
+
+  /* Work Page */
+
+  #work {
+    width: 100%;
+    background: linear-gradient(270deg, #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
+    background-size: 1200% 1200%;
+    -webkit-animation: AnimationName 9s ease infinite;
+    -moz-animation: AnimationName 9s ease infinite;
+    -o-animation: AnimationName 9s ease infinite;
+    animation: AnimationName 9s ease infinite;
+    margin: 0;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    margin: auto 0!important;
+    width: 100%;
+    align-items: center;
+  }
+
+  a:hover>.case-box {
+    display: none!important;
 }
+
+  /* Case Page */
+
+
+  .case-page {
+    margin: 5% 8% 5%!important;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .case-page>p {
+    margin: 30px 0 30px 0;
+  }
+
+  .case-image, #special-image {
+    width: 100%;
+    border-radius: 2vh;
+  }
+
+  .case-moreWork {
+    width: 100%!important;
+    margin: 50px 0!important;
+  }
+
+  #case-benefis, #case-linkedin, #case-natrusolate {
+    width: 100%;
+    height: 48vw;
+    border-radius: 2vh;
+  }
+
+  #video {
+    width: 100%;
+    border-radius: 2vh;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  #mobile {
+    width: 70%;
+    margin: 10% 15%;
+  }
+
+  #case-zoop {
+    width: 70%;
+    height: 119vw;
+    border-radius: 2vh;
+  }
+
+
+
+
+
+
+  /* #mobile {
+    width: 20vw;
+    border-radius: 3vh;
+    border: 5px solid black;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    margin: 50px 40%;
+  }
+
+  .image {
+    width: 60vw;
+    margin: 10px auto;
+
+  }
+
+  #special-image {
+    border-radius: 3vh;
+    border: 5px solid black;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    z-index: 2;
+  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
 
 .social-icon:hover {
   color: orange;
@@ -365,6 +577,8 @@ width: 70%;
   width: 80vw;
   margin: auto 10%;
   display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 
