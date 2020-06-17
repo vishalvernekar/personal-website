@@ -9,7 +9,7 @@ console.log(isMobile);
 
 //interactive frame options
 //Random-colour circle trail
-if (!isMobile && mobileWidth < viewportWidth) {
+if (!isMobile || mobileWidth < viewportWidth) {
   if (randomNumber === 1) {
     $("#artText").html("Come zen yourself! 🧘");
 
@@ -39,6 +39,8 @@ if (!isMobile && mobileWidth < viewportWidth) {
     fill(r,g,b);
     noStroke(0);
     ellipse(mouseX, mouseY, viewportHeight*0.2*perlinsNoise, viewportHeight*0.2*perlinsNoise);
+
+
   }
   }
   else if (randomNumber === 2) {
