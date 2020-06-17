@@ -597,16 +597,19 @@ hr {
   color: orange;
 }
 
+
+
+
 .main-title{
 font-size: 2rem;
-align-items: stretch;
+align-items: center;
 text-align: left;
 color: white;
-margin: 15vh auto;
+margin: auto auto;
 width: 70%;
 }
 
-#art, #work {
+#play, #work {
   background: transparent;
 }
 
@@ -740,9 +743,9 @@ a.case:hover>video {
 }
 
 @keyframes flipZoop {
-  0% {background: url(zoop/Zoop_Case1.png);background-size: cover;}
-  20% {background: url(zoop/Zoop_Case1.png);background-size: cover;}
-  40% {background: url(zoop/Zoop_Case2.png);background-size: cover;}
+  0% {background: url(zoop/Zoop_CaseFlip1.png);background-size: cover;}
+  20% {background: url(zoop/Zoop_CaseFlip1.png);background-size: cover;}
+  40% {background: url(zoop/Zoop_CaseFlip2.png);background-size: cover;}
   60% {background: url(zoop/Zoop_Case3.png);background-size: cover;}
   80% {background: url(zoop/Zoop_7.png);background-size: cover;}
   100% {background: url(zoop/Zoop_8.png);background-size: cover;}
@@ -752,7 +755,7 @@ a.case:hover>video {
   width: 50vw;
   height: 28vw;
   border-radius: 3vh;
-  background: url(zoop/Zoop_Case1.png);
+  background: url(zoop/Zoop_CaseFlip1.png);
   background-size: cover;
   /* background-position: top; */
   border: 5px solid black;
