@@ -1,14 +1,15 @@
 //HomePage interactive Window
+var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 var viewportWidth = $("body").innerWidth();
 var viewportHeight = $("body").innerHeight();
 var mobileWidth = 768;
 
 var randomNumber = Math.floor(Math.random()*4)+1;
-console.log(randomNumber);
+console.log(isMobile);
 
 //interactive frame options
 //Random-colour circle trail
-if (viewportWidth > mobileWidth) {
+if (!isMobile) {
   if (randomNumber === 1) {
     $("#artText").html("Come zen yourself! 🧘");
 
