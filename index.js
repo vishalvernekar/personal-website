@@ -9,7 +9,7 @@ console.log(isMobile);
 
 //interactive frame options
 //Random-colour circle trail
-if (!isMobile) {
+if (!isMobile && mobileWidth < viewportWidth) {
   if (randomNumber === 1) {
     $("#artText").html("Come zen yourself! 🧘");
 
