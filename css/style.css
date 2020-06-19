@@ -166,7 +166,7 @@
   width: 60vw;
   height: 33.6vw;
   border-radius: 3vh;
-  background: url(LinkedIn/Slide15.jpg);
+  background: url(LinkedIn/Slide11.jpg);
   background-size: cover;
   /* background-position: top; */
   border: 5px solid black;
@@ -982,7 +982,7 @@ a:hover>.case-box {
   }
 
   a:hover>.case-box {
-    display: none!important;
+    display: block;
 }
 
   /* Case Page */
@@ -1053,7 +1053,7 @@ a:hover>.case-box {
     height: auto!important;
   }
 
-  a.artwork>img {
+  a.artwork>img, a.artwork:hover>img {
     color: white;
     display: block;
     position: static;
@@ -1061,7 +1061,7 @@ a:hover>.case-box {
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   }
 
-  a.artwork>video {
+  a.artwork>video, a.artwork:hover>video {
     color: white;
     display: block;
     position: static;
@@ -1069,19 +1069,13 @@ a:hover>.case-box {
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
   }
 
-  a.artwork:hover>img {
-    display: none;
-  }
 
-  a.artwork:hover>video {
-    display: none;
-  }
 
   a.artwork {
     color: #d3d3d3;
   }
 
-  .case-box {
+  .case-box, .case-box:hover {
     width: 100%;
     display: block;
     position: relative;
@@ -1095,11 +1089,54 @@ a:hover>.case-box {
     display: none;
   }
 
-  #zoop>.box, #natrusolate>.box, #linkedin>.box, #benefis>.box, #dreamspring>.box, #andropique>.box, #cgf>.box, #makespace>.box, #gnc>.box {
+  #zoop>.box, #natrusolate>.box, #linkedin>.box, #tresemme>.box, #blackberry>.box, #benefis>.box, #dreamspring>.box, #andropique>.box, #cgf>.box, #makespace>.box, #gnc>.box {
     width: 100%;
     height: 46vw;
     border-radius: 2vh;
+    animation: none;
   }
+
+  #linkedin>.box{
+    background-image: url(mobile/Slide15.jpg);
+  }
+
+  #dreamspring>.box{
+    background-image: url(mobile/DreamSpring_1.jpg);
+  }
+
+  #cgf>.box{
+    background-image: url(mobile/CGF_1.jpg);
+  }
+
+  #andropique>.box{
+    background-image: url(mobile/Andropique_1.jpg);
+
+  }
+
+  #gnc>.box{
+    background-image: url(mobile/GNC_1.jpg);
+  }
+
+  #makespace>.box{
+    background-image: url(mobile/Makespace_1.jpg);
+
+  }
+
+  #blackberry>.box{
+    background-image: url(mobile/Blackberry_Mobile.png);
+    background-size: cover;
+    border: 5px solid black;
+  }
+
+  #tresemme>.box{
+    background-image: url(mobile/Tresemme_Mobile.png);
+    background-size: cover;
+    border: 5px solid black;
+  }
+
+
+
+
 
   #tlycs>.box {
     width: 100%;
@@ -1107,10 +1144,8 @@ a:hover>.case-box {
     border-radius: 2vh;
   }
 
-  #tresemme>.box, #tresVideo, #blackberry>.box, #bbVideo {
-    width: 100%;
-    height: auto;
-    border-radius: 2vh;
+  #tresVideo, #bbVideo {
+    display: none;
   }
 
 
