@@ -50,7 +50,8 @@ if (!isMobile || mobileWidth < viewportWidth) {
   }
   else {
     if (randomNumber === 1) {
-      $("#artText").html("Come zen yourself! 🧘");
+      $("#artText").html("Come zen yourself! 🧘🏽‍♂️");
+      $("#subtitle").html(" refresh for more interactive art");
 
       var time = 0;
       var increment = 0.02;
@@ -85,6 +86,7 @@ if (!isMobile || mobileWidth < viewportWidth) {
     else if (randomNumber === 2) {
       //snake trail
       $("#artText").html("Live that Nokia 3D Snake fantasy 📱");
+      $("#subtitle").html(" refresh for more interactive art");
       var xpos = new Array(100);
       var ypos = new Array(100);
 
@@ -119,6 +121,7 @@ if (!isMobile || mobileWidth < viewportWidth) {
     else if (randomNumber === 3) {
       //swirls
       $("#artText").html("I'm a creep, I'm a weirdo 👨🏽‍🎤");
+      $("#subtitle").html(" refresh for more interactive art");
       var theta = 0;
 
       function setup(){
@@ -128,13 +131,13 @@ if (!isMobile || mobileWidth < viewportWidth) {
       }
 
       function draw(){
-        background(255,60,0, 150);
+        background(255, 60, 60, 150);
         // Increment theta (try different values for "angular velocity" here)
 
         	 theta += 0.02;
-           fill(255);
+           fill(200);
            strokeWeight(5);
-           stroke(50);
+           stroke(255);
            var x = theta;
            // A simple way to draw the wave with an ellipse at each location
            for (var i = 0; i <= 100; i++) {
@@ -147,6 +150,7 @@ if (!isMobile || mobileWidth < viewportWidth) {
     else if (randomNumber === 4) {
       //heartbeat
       $("#artText").html("Dhak dhak karne laga 💁🏽‍♀️");
+      $("#subtitle").html(" refresh for more interactive art");
       var time = 0.0;
       var increment = 0.02;
 
