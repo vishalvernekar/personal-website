@@ -3,6 +3,14 @@ a {
   color: blue;
 }
 
+.nav-item>a:hover {
+  color: blue!important;
+}
+
+a.navbar-brand:hover {
+  color: blue!important;
+}
+
 
 .client-name {
   font-weight: bold;
@@ -392,9 +400,17 @@ width: 90%;
 }
 
 .about-title>a:hover {
-  color: gray;
+  color: blue;
   text-decoration: none;
+}
 
+a {
+  color: grey;
+}
+
+#contact-details>a:hover {
+  color: blue!important;
+  text-decoration: none;
 }
 
 #about-button {
@@ -474,7 +490,7 @@ a.artwork {
 
 a.artwork:hover {
   color: blue;
-  font-weight: 500;
+
   text-decoration: none;
 }
 
@@ -534,7 +550,6 @@ a.case {
 
 a.case:hover {
   color: blue;
-  font-weight: 500;
   text-decoration: none;
 }
 
