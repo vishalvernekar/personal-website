@@ -897,6 +897,7 @@ a:hover>.case-box {
 }
 
 .case-moreWork>a:hover {
+  color: blue;
   text-decoration: none;
 }
 
