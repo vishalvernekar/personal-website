@@ -281,17 +281,28 @@ hr {
   font-size: 2rem;
 }
 
+#sketch-div {
+  align-content: center;
+}
+
 .about-title {
   font-size: 2.5rem;
-  align-items: stretch;
+  align-items: center;
   text-align: left;
   color: white;
+  mix-blend-mode: difference;
   margin: auto auto;
   width: 70%;
   position: absolute;
   left: 15vw;
-  top: 40vh;
-  text-shadow: -1px 1px black, 1px -1px black,-1px -1px black, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black;
+  top: 18vh;
+}
+
+
+
+.about-title>h1 {
+  font-weight:bold;
+  line-height: 1;
 
 }
 
@@ -418,8 +429,6 @@ a {
   font-size: 2rem;
   background-color: white;
   border-radius: 1rem;
-  /* border: 5px solid black; */
-  box-shadow: -1px 1px black, 1px -1px black, -1px -1px black, 1px 1px black, 2px 2px black, 3px 3px black, 4px 4px black, 5px 5px black;
   padding: 0.5rem 1rem;
   text-shadow: none;
   text-decoration-color: gray;
@@ -958,12 +967,6 @@ a:hover>.case-box {
 
   #sketch-div {
     width: 100%!important;
-    background: linear-gradient(270deg, #e40303, #ff8c00, #ffed00, #008026, #004dff, #750787);
-    background-size: 1200% 1200%;
-    -webkit-animation: AnimationName 9s ease infinite;
-    -moz-animation: AnimationName 9s ease infinite;
-    -o-animation: AnimationName 9s ease infinite;
-    animation: AnimationName 9s ease infinite;
     margin: 0;
   }
 
@@ -978,8 +981,9 @@ a:hover>.case-box {
   }
 
   .about-title {
+    z-index: 2;
     font-size: 2.5rem;
-    position: inherit;
+    position:static;
     margin-top: 80px;
     margin-bottom: 80px;
   }

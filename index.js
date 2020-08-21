@@ -22,12 +22,11 @@ var randomNumber = Math.floor(Math.random()*4)+1;
 
 
 //Test if device is not mobile
-if (!isMobile || mobileWidth < viewportWidth) {
+
   //Test if browser is Safari
-  if (safariAgent) {
+  if (safariAgent || isMobile || viewportWidth < mobileWidth) {
     //heartbeat
-    $("#artText").html("Dhak dhak karne laga 💁🏽‍♀️");
-    $("#subtitle").html("");
+
     var time = 0.0;
     var increment = 0.02;
 
@@ -49,7 +48,7 @@ if (!isMobile || mobileWidth < viewportWidth) {
     }
   }
   else {
-    if (randomNumber === 1) {
+    if (randomNumber === 0) {
       $("#artText").html("Come zen yourself! 🧘🏽‍♂️");
       $("#subtitle").html(" refresh for more interactive art");
 
@@ -83,10 +82,9 @@ if (!isMobile || mobileWidth < viewportWidth) {
 
     }
     }
-    else if (randomNumber === 2) {
+    else if (randomNumber === 2 || randomNumber === 1) {
       //snake trail
-      $("#artText").html("Live that Nokia 3D Snake fantasy 📱");
-      $("#subtitle").html(" refresh for more interactive art");
+
       var xpos = new Array(100);
       var ypos = new Array(100);
 
@@ -118,7 +116,7 @@ if (!isMobile || mobileWidth < viewportWidth) {
         	}
       }
     }
-    else if (randomNumber === 3) {
+    else if (randomNumber === 0) {
       //swirls
       $("#artText").html("I'm a creep, I'm a weirdo 👨🏽‍🎤");
       $("#subtitle").html(" refresh for more interactive art");
@@ -147,10 +145,9 @@ if (!isMobile || mobileWidth < viewportWidth) {
       		}
       }
     }
-    else if (randomNumber === 4) {
+    else if (randomNumber === 4 || randomNumber === 3) {
       //heartbeat
-      $("#artText").html("Dhak dhak karne laga 💁🏽‍♀️");
-      $("#subtitle").html(" refresh for more interactive art");
+
       var time = 0.0;
       var increment = 0.02;
 
@@ -172,10 +169,3 @@ if (!isMobile || mobileWidth < viewportWidth) {
       }
     }
   }
-
-
-
-
-
-
-}
